@@ -14,6 +14,6 @@ for line in lines:
         depth += int(value)
     elif key == "forward":
         forward += int(value)
-
+print(depth, forward)
 print(depth * forward)
 
