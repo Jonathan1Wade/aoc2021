@@ -1,4 +1,4 @@
-with open('2021day3.txt') as f:             # open file
+with open('input.txt') as f:             # open file
     content = f.read().splitlines()         # read file and split lines 
 
 gamma = ""                                  # empty string. We will use this to disply the result, it needs to start empty "".

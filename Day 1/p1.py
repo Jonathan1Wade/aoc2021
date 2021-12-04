@@ -1,5 +1,5 @@
 print('solution 1\n')
-with open("2021day1.txt") as f:
+with open("input.txt") as f:
     input = [int(l) for l in f.readlines()]
     #print(input)
 

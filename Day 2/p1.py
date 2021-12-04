@@ -1,5 +1,5 @@
 #part1
-with open("2021day2.txt") as f:
+with open("input.txt") as f:
     lines = f.readlines()
 
 depth = 0
