@@ -11,12 +11,12 @@ for (a, b) in zip(input[:-1], input[1:]):
 print(changes)
 
 
-def sliding_window(elements, window_size):
-    if len(elements) == window_size:
-        return elements
-    for i in range(len(elements) - window_size + 1):
-        print(elements[i:i+window_size])
-sliding_window(input, 3)
+#def sliding_window(elements, window_size):
+#    if len(elements) == window_size:
+#        return elements
+#    for i in range(len(elements) - window_size + 1):
+#        print(elements[i:i+window_size])
+#sliding_window(input, 3)
 
 
 # puzzle 2
